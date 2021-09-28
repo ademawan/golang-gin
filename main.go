@@ -61,7 +61,7 @@ func listBook(c *gin.Context) {
 	books = append(books, book1)
 	books = append(books, book2)
 
-	c.JSON(200, gin.H{"code": 200, "message": "success", "data": books})
+	c.JSON(200, gin.H{"code": 200, "message": "success", "data": books}) //comen test git
 	// page := c.DefaultQuery("page", "1")
 	// order := c.DefaultQuery("order", "ASC")
 	// fmt.Println("page " + page + " order " + order)
